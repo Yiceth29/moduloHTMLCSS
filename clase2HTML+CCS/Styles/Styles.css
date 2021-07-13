@@ -1,0 +1,112 @@
+/*
+Estructura basica de los estilos de CSS
+
+Clases de etiquetas {
+    estilo_aplicar_: propiedad_del_estilo;
+}
+
+*/
+
+/* Estilos generales*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+/*NavBar styles */
+nav{
+    background-color: lightcoral;
+    padding: 30px;
+    color: #fff;
+}
+/*Button header styles */
+.btn-header {
+    width: 3rem;
+    text-decoration: none;
+    background-color:rgb(112, 231, 112);
+    padding: 10px;
+    color: greenyellow;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 50px;
+    /*margin-bottom: ; espaciado abajo
+    margin-left: ;  espaciado izquierdo
+    margin-right: ; espaciado derecho*/
+}
+
+/*header container styles*/
+.overlay-div {
+    background-color:black;
+}
+
+.header-container{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.bg-header {
+    background-image: url("../Img/foto\ burguer.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    opacity: 0.6;
+}
+
+/* seccion tarjeta*/
+.img-size{
+    width: 300px;
+    border-radius: 7px 7px 0 0;
+}
+
+.card-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card-container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px;
+}
+
+.tex-card { 
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.btn-order {
+    width: 60px;
+    text-decoration: none;
+    background-color: #37b13d;
+    padding: 6px;
+    color: #fff;
+    border-radius: 6px;
+    margin-top: 20px;
+    transition: all 2s;
+    
+}
+
+.btn-order:hover {
+    background-color: yellow;
+    color: black;
+
+}
+
+.border-card {
+    border: gray solid 1px;
+    border-radius: 7px;
+}
+
+.card-section {
+    
+}
