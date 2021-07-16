@@ -1,0 +1,77 @@
+/* estilos generales */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+/* color del titulo*/
+.header-color {
+    color: rgb(83, 83, 245);
+}
+/* imagen de fondo*/
+.bg-matica {
+    background-image:url(../img/john-vicente-rVHhoDbvKb0-unsplash.jpg) ;
+    background-size: cover%;
+    background-repeat: no-repeat ;
+    background-position-y: 40%;
+}
+/* contenedor formulario*/
+.bg-white {
+    background-color:#fff;
+
+}
+.form-container {
+    padding: 4rem;
+    width:30% ;
+    border-radius:0.4rem ;
+
+}
+
+/* contenedores de inputs*/
+.input-container {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.input-container input {
+    border-radius: 0.4rem;
+    border: solid 0.1rem gray;
+    padding: 0.4rem; ;
+    margin-top: 0.2rem;
+
+}
+.checkbox-container {
+    margin-top: 0.5rem;
+}
+
+/* estilos de botones*/
+.btn-login-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.btn-login-container button {
+    padding: 0.7rem;
+    background-color: rgb(83, 83, 245) ;
+    border: 0;
+    border-radius: 0.2rem;
+    color: white;
+    transition background-color: 0.5s;
+
+}
+
+.btn-login-container button:hover {
+    background-color: green;
+    padding: 1rem;
+
+}
+
+/* alineacion formulario*/
+.screen-form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
