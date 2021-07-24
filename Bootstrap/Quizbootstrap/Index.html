@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <title>Polar Website</title>
+    <link rel="shortcut icon" href="img/fondo.png" />
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <div class="navbar-brand">
+          <img
+            src="img/polarbb.jpg"
+            alt=""
+            width="45"
+            height="45"
+            class="d-inline-block align-text-top"
+          />
+          POLAR
+        </div>
+        <form class="d-flex">
+          <button class="btn btn-outline-primary me-3" type="submit">
+            Inicio sesión
+          </button>
+          <button class="btn btn-outline-success" type="submit">
+            Registrarse
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row justify-content-start">
+        <div class="col-8">
+          <img src="img/fondo.png" />
+        </div>
+
+        <div class="col-4">
+          <form>
+            <div class="mb-3">
+              <h1 class="text-primary">Ingresa tus datos</h1>
+            </div>
+            <div class="mb-3">
+              <label for="inputNombre" class="form-label"> Nombre </label>
+              <input type="text" class="form-control" id="inputNombre" />
+            </div>
+            <div class="mb-3">
+              <label for="inputApellido" class="form-label"> Apellido </label>
+              <input type="text" class="form-control" id="inputApellido" />
+            </div>
+            <div class="mb-3">
+              <label for="inputEdad" class="form-label"> Edad </label>
+              <input type="number" class="form-control" id="inputEdad" />
+            </div>
+            <label for="inputEmail" class="form-label"> Correo </label>
+            <div class="input-group mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="inputEmail"
+                aria-describedby="superArroba"
+              />
+              <span class="input-group-text" id="superArroba">@</span>
+            </div>
+            <div class="mb-3">
+              <label for="inputObservaciones" class="form-label">
+                Observaciones
+              </label>
+              <textarea class="form-control" id="inputObservaciones"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Registrarse</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="footer mt-auto py-3 bg-dark">
+      <div class="container">
+        <span class="text-muted">Hecho por Poli</span>
+      </div>
+    </footer>
+  </body>
+</html>
